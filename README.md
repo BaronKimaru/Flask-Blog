@@ -14,7 +14,9 @@ main_project:
                 models.py
                 templates
                 static
-            config.py(has all the dev, production configs)
+            instance:
+                config.py (houses all the secret files and passwords you wish to keep from version control)
+            config.py     (has all the dev, testing, staging & production configs)
             run.py
             requirements.txt
 venv
