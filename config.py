@@ -2,6 +2,7 @@ class Config:
 	"""Common Configurations"""
 	DEBUG = False
 	CSRF_ENABLED = True
+	SQLALCHEMY_TRACK_MODIFICATIONS = False
 
 
 class DevelopmentConfig(Config):

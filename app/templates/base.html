@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    {% include 'includes/_css.html'%}
+    
+    <title>mY bLOG aPP</title>
+</head>
+<body>
+    {% include 'includes/_navbar.html' %}
+
+
+    <!-- <div class="container"> -->
+
+    {% block content%}
+
+    {% block jumbotron %}
+    {% endblock %}
+
+    {% endblock %}
+
+    <!-- </div> -->
+
+    <!--reference-->
+	{% include 'includes/_js.html' %}
+	<script>
+		console.log("loading script...");
+	
+		jQuery(document).ready(function() {	
+		
+		});
+		new WOW().init();
+	</script>
+  
+</body>
+</html>
