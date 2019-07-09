@@ -8,7 +8,7 @@ Generally, it's better to have your configurations in a '.env' and then access t
 #NB, In this, Ive used the structure of:
 ```
 main_project:
-            app:
+            project:
                 __init__.py
                 views.py
                 models.py
