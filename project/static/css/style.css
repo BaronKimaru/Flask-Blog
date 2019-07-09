@@ -1,0 +1,22 @@
+body, html{
+    background-color: #ff0000 !important;
+    color: #ccc;
+    font-family: 'Nunito', sans-serif;
+    line-height: 1.6;
+}
+
+a{
+    text-decoration:none;
+}
+
+section .section{
+    padding: 50px 0 ! important;
+}
+
+.luxury{
+    padding: 0 200px;
+}
+
+.margin-b{
+    margin-bottom: 50px; 
+}

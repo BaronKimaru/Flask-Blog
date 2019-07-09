@@ -1,6 +1,6 @@
 
-def posts():
-    posts = [
+def articles():
+    articles = [
         {
             'id': 1,
             'title': 'Post One',
@@ -18,4 +18,4 @@ def posts():
         },
     ]
 
-    return posts
+    return articles

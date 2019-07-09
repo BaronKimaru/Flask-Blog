@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<!-- {{posts}} -->
+<!-- style = "padding: 50px 0;" -->
+<div class="container-fluid">
+    <section id="posts" class="section" >
+        <div class="container">
+            <ul class="list-group mt-5">
+                {% for post in posts %}
+                <li class="list-group-item">
+                    <a href="post/{{post.id}}"> {{ post.title }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </section>
+</div>
+
+
+
+
+
+{% endblock %}

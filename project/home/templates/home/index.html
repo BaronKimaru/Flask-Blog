@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div id="home" class="container-fluid border">
+    <section id = "home-jumbo" class="border-primary" class="section">
+        <div class="container border border-primary p-5">
+
+            {% block jumbotron %}
+            <div class="jumbotron text-center shadow bg-primary text-white ">
+                <!-- <div class="container"> -->
+                    <h1 class="display-4">bLOg aPp</h1> 
+                    <p class="lead">Welcome to My Blog App Sample</p> 
+                <!-- </div> -->
+            </div>
+            {% endblock %}
+            
+            <div class="margin-b luxury py-3 border border-danger">
+                <h2 class="display-4 text-center  wow slideInLeft">HOME</h2>
+            </div>
+            
+            <div class="margin-b luxury py-3 border border-danger">
+                <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum expedita vitae ab incidunt ut officia et aliquam sapiente voluptatem voluptatibus quis necessitatibus, quia consequuntur fugit magnam quam dignissimos sunt pariatur?</p>
+                <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum expedita vitae ab incidunt ut officia et aliquam sapiente voluptatem voluptatibus quis necessitatibus, quia consequuntur fugit magnam quam dignissimos sunt pariatur?</p>
+                <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum expedita vitae ab incidunt ut officia et aliquam sapiente voluptatem voluptatibus quis necessitatibus, quia consequuntur fugit magnam quam dignissimos sunt pariatur?</p>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id = "home-jumbo2" class="border border-warning" style = "width: 100%; height:600px; padding: 200px 0;">
+        <div class="container border border-primary">
+
+            
+            
+            <h2 class="display-4 text-center">HOME</h2>
+            
+        </div>
+    </section>
+
+</div>
+
+{% endblock %}
