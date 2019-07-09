@@ -24,7 +24,7 @@ venv
 
 ## INSTALL
 # clone the repository
-git clone https://github.com/BaronKimaru/FlaskStructure.git
+git clone https://github.com/BaronKimaru/FlaskStructure.git<br />
 cd flaskstructure
 
 Create a virtualenv and activate it:
