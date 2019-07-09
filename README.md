@@ -23,7 +23,7 @@ venv
 ```
 
 ## INSTALL
-###### clone the repository
+#### clone the repository
 git clone https://github.com/BaronKimaru/FlaskStructure.git<br />
 \
 cd flaskstructure
