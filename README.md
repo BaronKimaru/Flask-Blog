@@ -8,29 +8,41 @@ Generally, it's better to have your configurations in a '.env' and then access t
 #NB, In this, Ive used the structure of:
 ```
 main_project:
-            project:
-                __init__.py
-                views.py
-                models.py
-                templates:- base.html
-                static
-                home:
-                    __init__.py
-                    routes.py
-                    templates/home:- index.html,about.html, contact.html
-                users:
-                    __init__.py
-                    routes.py
-                    templates/users:- login.html, profile.html, register.html
-                posts:
-                    __init__.py
-                    routes.py
-                    templates/posts:- posts.html, post.html, addpost.html, editpost.html, deletepost.html
-            instance:
-                config.py (houses all the secret files and passwords you wish to keep from version control)
-            config.py     (has all the dev, testing, staging & production configs)
-            run.py
-            requirements.txt
+.       project:
+.               __init__.py
+.               views.py
+.                models.py
+.               templates:- base.html
+.               static
+.               home:
+.                   __init__.py
+.                   routes.py
+.                   templates/home:- index.html,about.html, contact.html
+.                   static:
+.                         css: styles.css
+.                         js: main.js
+.               users:
+.                   __init__.py
+.                   routes.py
+.                   templates/users:- login.html, profile.html, register.html
+.                   static:
+.                         css: styles.css
+.                         js: main.js
+.               posts:
+.                   __init__.py
+.                   routes.py
+.                   templates/posts:- posts.html, post.html, addpost.html, editpost.html, deletepost.html
+.                   static:
+.                         css: styles.css
+.                         js: main.js
+.               tests:
+.                     functional: model
+.                     auth: views
+.         instance:
+.                 config.py (houses all the secret files and passwords you wish to keep from version control)
+.         config.py       (has all the dev, testing, staging & production configs)
+.         run.py
+.         requirements.txt
 venv
 ```
 
